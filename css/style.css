@@ -291,7 +291,7 @@ a[href^="tel"]:not(.btn):hover { color: var(--orange-hover); }
 /* ===== SERVICES OVERVIEW ===== */
 .services-section {
   background: linear-gradient(rgba(0,0,0,0.82), rgba(0,0,0,0.82)),
-              url('../assets/light-bulb-background.jpg') center/cover no-repeat fixed;
+              url('../assets/light-bulb-background.jpg') center/cover no-repeat;
 }
 .services-grid {
   display: grid;
