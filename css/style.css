@@ -42,12 +42,12 @@ h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
 h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
 h3 { font-size: 1.2rem; }
 
-/* ===== PHONE LINKS — always visible & clickable ===== */
-a[href^="tel"] {
+/* ===== PHONE LINKS — always visible & clickable (excludes buttons) ===== */
+a[href^="tel"]:not(.btn) {
   color: var(--orange);
   font-weight: 600;
 }
-a[href^="tel"]:hover { color: var(--orange-hover); }
+a[href^="tel"]:not(.btn):hover { color: var(--orange-hover); }
 
 /* ===== UTILITIES ===== */
 .container { max-width: 1140px; margin: 0 auto; padding: 0 1.25rem; }
