@@ -289,7 +289,10 @@ a[href^="tel"]:not(.btn):hover { color: var(--orange-hover); }
 }
 
 /* ===== SERVICES OVERVIEW ===== */
-.services-section { background: var(--bg-section); }
+.services-section {
+  background: linear-gradient(rgba(0,0,0,0.82), rgba(0,0,0,0.82)),
+              url('../assets/light-bulb-background.jpg') center/cover no-repeat fixed;
+}
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
